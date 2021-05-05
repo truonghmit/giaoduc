@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\binku\\.nuget\\packages\\": {}
+    "C:\\Users\\truonghm\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DuAn\\SowerKid\\SowerKids\\SowerKidsMVC\\SowerKidsMVC.csproj",
+      "projectUniqueName": "D:\\truonghm\\GitCode\\DuAnGiaoDuc\\SowerKids\\SowerKidsMVC\\SowerKidsMVC.csproj",
       "projectName": "SowerKidsMVC",
-      "projectPath": "E:\\DuAn\\SowerKid\\SowerKids\\SowerKidsMVC\\SowerKidsMVC.csproj",
-      "packagesPath": "C:\\Users\\binku\\.nuget\\packages\\",
-      "outputPath": "E:\\DuAn\\SowerKid\\SowerKids\\SowerKidsMVC\\obj\\",
+      "projectPath": "D:\\truonghm\\GitCode\\DuAnGiaoDuc\\SowerKids\\SowerKidsMVC\\SowerKidsMVC.csproj",
+      "packagesPath": "C:\\Users\\truonghm\\.nuget\\packages\\",
+      "outputPath": "D:\\truonghm\\GitCode\\DuAnGiaoDuc\\SowerKids\\SowerKidsMVC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\binku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\truonghm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,7 +36,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -44,26 +47,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
